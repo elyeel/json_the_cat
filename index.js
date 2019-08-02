@@ -8,4 +8,5 @@ fetchBreedFetcher(breedName, (error, desc) => {
   } else {
     console.log(desc);
   }
+  // console.log("error = " + error);
 });

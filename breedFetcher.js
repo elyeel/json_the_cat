@@ -21,7 +21,7 @@ const fetchBreedDescription = function(breedName, callback) {
           // console.log("Invalid input type of breed");
         } else {
           // console.log(data[0].weight);
-          callback(error, data[0].description);
+          callback(null, data[0].description.trim());
         }
       }
       // console.log(typeof data); // data is actually an object
